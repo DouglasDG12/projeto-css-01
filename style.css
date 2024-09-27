@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 42px 0 0 40px;
+}
+
+a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-right: 30px;
+    color: #17233D;
+    cursor: pointer;
+    letter-spacing: 0.88px;
+}
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px;
+    border-radius: 10px;
+    background-color: #4CB538;
+    color: #FFFFFF;
+    cursor: pointer;
+    letter-spacing: 0.1px;
+}
+
+img {
+    width: 534px;
+    height: 467px;
+    margin-top: 150px;
+    margin-left: 120px;
+
+}
+
+.div-main {
+    display: inline-block;
+    margin-left: 80px;
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    color: #161A49;
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    text-align: justify;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+.button-main {
+    width: 112px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    border: none;
+    color: #6FBF44;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+@media screen and (max-width:660px) and (orientation:portrait) {
+
+
+
+    a {
+        display: none;
+    }
+
+    img {
+        position: absolute;
+        top: 85%;
+        margin-left: 75px;
+    }
+
+    .div-main {
+        position: absolute;
+        top: 40%;
+    }
+
+    .button-header {
+        margin-left: 480px;
+        position: absolute;
+        top: 20px;
+    }
+ 
+    h1 {
+        text-align: center;
+        position: relative;
+        right: 40px;
+        bottom: 150px;
+    }
+
+    p {
+        position: relative;
+        bottom: 150px;
+        text-align: center;
+
+    }
+
+    .button-main {
+        position: relative;
+        left: 190px;
+        bottom: 150px;
+    }
+
+  
+}
